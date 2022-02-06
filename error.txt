@@ -1,0 +1,16 @@
+- Khi brower trang previewfile.aspx thì
++ Tài liệu không hiển thị
++ Menu bên trái bị reload không show cố định
++ Hiện tại chỉ copy 2 thư mục Script, content của dự án vào project này, 
+tạo thêm 1 file previewfile.aspx, tạo thêm thư mục documents để chứa các file vật lý
++ không sử dụng list file form
++ chỉ đang test chức năng show detail form
+===========================
++ Cách host web trong IIS
+Để đỡ phải run debug nhiều lần, có thể host web tại IIS để chạy
+Bước 1: vào file host thêm 1 dòng 127.0.0.1 test.vn
+Bước 2: vào IIS add thêm 1 website test.vn,browser đến thư mục vật lý
+gõ tên domain là test.vn
+setting cho web chạy cả chế độ 32 bit=true
+add thêm Mine type có đuôi là .properties để chạy đc các file properties
+
